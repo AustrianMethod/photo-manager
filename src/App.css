@@ -1,0 +1,27 @@
+.photo-manager {
+    width: 600px;
+}
+.file-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.preview-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.preview-image {
+    width: 100px;       
+    height: 100px;      
+    object-fit: cover;
+    margin: 10px;  
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
